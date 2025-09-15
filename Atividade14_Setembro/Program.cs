@@ -2,7 +2,6 @@
 
 class Program
 {
-    // 1. Função que retorna o menor valor da matriz
     static int MenorValor(int[,] matriz)
     {
         int menor = matriz[0, 0];
@@ -22,7 +21,6 @@ class Program
         return menor;
     }
 
-    // 2. Função que retorna o maior valor da matriz
     static int MaiorValor(int[,] matriz)
     {
         int maior = matriz[0, 0];
@@ -42,7 +40,7 @@ class Program
         return maior;
     }
 
-    // 3. Função que conta quantas vezes X aparece na matriz
+    // 3. Função que conta quantas vezes
     static int ContarOcorrencias(int[,] matriz, int x)
     {
         int contador = 0;
